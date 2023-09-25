@@ -1,0 +1,16 @@
+<div class="container"><h1 class="display-5 fw-bold" >Welcome to QuizApp</h1>
+<h4>Instructions : </h4>
+<ol>
+    <li>This Quiz will contain 10 questions. Each question carries 10 marks.</li>
+    <li>All questions are compulsory to answer.</li>
+    <li>Negative marking of -10 marks.</li>
+    <li>You will have 60 sec for each question.</li>
+    <li>You can answer questions randomly as you like.</li>
+    <li>Refreshing the page will reset the quiz.</li>
+</ol>
+<div class="name col-md-4 my-3">
+    <label for="name"></label>
+    <input #name type="text" placeholder="Enter your Name">
+</div>
+<button class="btn btn-primary" routerLink="/question" (click) = "startQuiz()">Start the quiz</button>
+</div>

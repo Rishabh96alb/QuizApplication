@@ -1,0 +1,42 @@
+.card{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.progress{
+    margin-top: 5px;
+    
+}
+
+.questions {
+    margin-top: 20px;
+    padding: 0;
+
+}
+
+.options{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.card li{
+    padding: 5px;
+    
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+li .card :hover{
+    border: 5px solid green;
+}
+
